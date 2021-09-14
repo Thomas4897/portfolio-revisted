@@ -1,8 +1,12 @@
 * {
-	margin: 0;
-	padding: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+	margin: 0px;
+	height: 100%;
 }
 
 .background {
@@ -21,6 +25,7 @@
 
 .navbar {
 	height: 100px;
+	min-width: 700px;
 	display: flex;
 	align-items: center;
 }
@@ -70,8 +75,8 @@ nav ul li a {
 }
 
 .center-box {
-	height: 70%;
-	width: 80%;
+	height: 600px;
+	width: 1200px;
 	background-color: rgba(255, 255, 255, 0.1);
 	border: 30px solid rgba(255, 255, 255, 0.0009);
 	box-shadow: ;
@@ -79,35 +84,31 @@ nav ul li a {
 	display: flex;
 	align-items: center;
 	margin-left: 130px;
-	margin-top: 100px;
+	margin-top: 10px;
 }
 
 .center-box-txt {
-	padding-right: 40px;
-	margin-left: 200px;
+	margin-left: 100px;
 	margin-right: 100px;
-	margin-bottom: 300px;
-
+	margin-bottom: 368px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
 
 .about-center-box-txt {
-	padding-right: 40px;
-	margin-left: 200px;
+	margin-left: 100px;
 	margin-right: 100px;
-	margin-bottom: 63px;
+	margin-bottom: 155px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
 
 .contact-center-box-txt {
-	padding-right: 40px;
-	margin-left: 200px;
+	margin-left: 100px;
 	margin-right: 100px;
-	margin-bottom: 188px;
+	margin-bottom: 255px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -137,7 +138,6 @@ nav ul li a {
 	height: 470px;
 	border-radius: 400px;
 	padding-right: 150px;
-	margin-right: 100px;
 	display: flex;
 	flex: 1;
 }
