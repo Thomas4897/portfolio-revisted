@@ -21,22 +21,22 @@
 
 .navbar {
 	height: 100px;
-	border: 3px solid black;
 	display: flex;
 	flex: 1;
 	align-items: center;
 }
 
 .nav-name {
-	border: 3px solid black;
 	font-weight: bold;
 	display: flex;
 	flex: 1;
+	font-size: 20px;
+	color: rgb(129, 231, 231);
 }
 
 .nav-links {
-	border: 3px solid black;
 	padding-right: 50px;
+	font-size: 20px;
 }
 
 nav ul li {
@@ -52,20 +52,54 @@ nav ul li a {
 }
 
 .center-box {
-	border: 3px solid black;
-	height: 500px;
-	width: 800px;
+	height: 70%;
+	width: 80%;
 	background-color: rgb(255, 255, 255);
-	border-radius: 20px;
+	border-radius: 100px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: center;
 	align-items: center;
-	margin-left: 50vh;
+	align-content: center;
+	margin-left: 130px;
 	margin-top: 100px;
 }
 
-.profile-pic {
+.center-box-txt{
 	border: 3px solid black;
-	height: 150px;
-	border-radius: 100px;
+	padding: 10px;
+	margin-right: 200px;
 }
+
+.name{
+	border: 2px solid teal;
+	font-size: xx-large;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.job-title{
+	border: 2px solid teal;
+	font-size: ;
+	font-weight: ;
+	font-style: ;
+	padding-top: ;
+	padding-bottom: ;
+}
+
+.description{
+	border: 2px solid teal;
+	font-size: ;
+	font-weight: ;
+	font-style: ;
+	padding-top: ;
+	padding-bottom: ;
+}
+
+.profile-pic {
+	height: 300px;
+	border-radius: 200px;
+}
+
