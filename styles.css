@@ -79,25 +79,20 @@ nav ul li a {
 .name {
 	font-size: 48px;
 	font-weight: bold;
-	font-style: italic;
 	padding-top: 40px;
 	color: white;
-	font-family: serif;
 }
 
 .job-title {
 	font-size: 20px;
 	font-weight: 500;
-	font-style: italic;
 	color: rgba(255, 255, 255, 0.733);
-	font-family: serif;
 }
 
 .description {
 	font-size: 24px;
 	font-weight: 500;
 	color: white;
-	font-family: serif;
 }
 
 .center-box-picture {
@@ -107,4 +102,5 @@ nav ul li a {
 .profile-pic {
 	border-radius: 400px;
 	opacity: 0.7;
+	box-shadow: 10px 10px 50px 10px #02235756;
 }
